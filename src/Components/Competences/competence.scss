@@ -1,0 +1,58 @@
+
+
+
+
+.logo-contain {
+
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat';
+    .item-logo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    .iconx {
+        font-size: 40px;
+        height: 50px;
+        transition: transform 1s ease;
+
+        &:hover {
+            transform: rotate(360deg);
+          }
+
+    }
+          
+}}
+
+
+@media  (max-width:1338px){
+
+.logo-contain{
+    display: grid;
+        grid-template-columns: repeat(4 , 1fr);
+        padding: 20px;
+}
+
+
+}
+    
+@media  (max-width:768px) {
+.logo-contain {
+    
+    gap: 20px;
+.item-logo {
+
+    h3 {
+        font-size: 10px;
+    }
+    .iconx { 
+        
+        height: 30px; 
+    }
+    
+}
+
+}
+}

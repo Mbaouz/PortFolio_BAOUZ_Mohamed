@@ -1,0 +1,104 @@
+
+body {
+    margin:0;
+}
+.section-card {
+
+  h2{
+    font-family: 'Montserrat';
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+  }
+.card-contain {
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    border-radius: 25px;
+    margin: 50px;
+    background-color: rgb(213, 213, 227);
+    .card-item {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 30px;
+        gap: 60px;
+        grid-row-gap: 40px;
+        box-sizing: border-box;
+        
+        img {
+            width:100%;
+            height: 150px;
+            border-radius: 10px;
+
+            &:hover {
+                animation-name: pulse;
+                animation-duration: 1s;
+                animation-iteration-count: infinite;
+              }
+            
+        }
+
+        a {
+            text-decoration: none;
+            position: relative;
+        }
+
+        
+
+        h2 {
+            color:transparent;
+            font-family: 'Montserrat';
+            font-size: 18px;
+            font-weight: 700;
+            text-decoration: none;
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+           
+            
+        }
+    }
+}
+}
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+
+
+
+
+@media  (max-width:768px) {
+.section-card{
+.card-contain{
+
+    background-color: transparent;
+    margin : 0px;
+
+    .card-item{
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        padding: 20px;
+      img{
+        width: 300px;
+      }
+        
+        
+        }}
+
+
+
+}
+
+
+
+    
+}

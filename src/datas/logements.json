@@ -1,0 +1,188 @@
+[
+	{
+		"id": "c67ab8a7",
+		"title": "Kasa",
+		"cover": "/projectsPic/kasa.png ",
+		"pictures": [
+			"/projectsPic/kasa1.jpg",
+			"/projectsPic/kasa2.jpg",
+			"/projectsPic/kasa3.jpg"
+		],
+		"description": "Kasa est une entreprise leader dans le domaine de la location entre particuliers en France.L'application permet d'afficher tous les logements en location et de pouvoir accéder aux details et photos de chaque logement presenter dans des collapses et un carousel pour les photos .  ",
+		
+		
+		"location": "Application de location de logements",
+			"equipments":["React",
+			"Html 5",
+			"Sass",
+			"Npm",
+			"JavaScript"
+		],
+		
+		"tags": [
+			"Voir le code"
+			
+		]
+	},
+	{
+		"id": "b9123946",
+		"title": "Print it",
+		"cover": "/projectsPic/print.png",
+		"pictures": [
+			"/projectsPic/print1.jpg"
+				
+			
+		],
+		"description": "Print it est une entreprise d'imprimerie qui disposait déjà d'un site internet , et qui souhaitait ajouter un carousel.J'ai ajouter un diaporama d'images en utilisant principalement javascript.",
+		
+		
+		"location": "Site d'impremerie",
+		"equipments": [
+			"Html 5",
+			"Css 3",
+			"JavaScript"
+		],
+		"tags": [
+			"Voir le code"
+				
+		]
+	},
+	{
+		"id": "46d188c5",
+		"title": "Booki",
+		"cover": "/projectsPic/booki.png ",
+		"pictures": [
+			"/projectsPic/booki1.jpg"	
+		
+		],
+		"description": " Intégration de l'interface du site depuis une maquette figma. Le site est commandé en desktop first, et la partie responsive a été travaillée dans un second temps.",
+		"location": "Site qui propose des hébergements et des activités",
+		"equipments": [
+			"Html 5",
+			"Css3"
+			
+		],
+		"tags": [
+			"Voir le code"
+		]
+	},
+	{
+		"id": "7af00cd6",
+		"title": "Nina Carducci - Photographe",
+		"cover": "/projectsPic/nina.png",
+		"pictures": [
+			"/projectsPic/seo.jpg"
+		],
+		"description": "Optimisation du site au niveau des performances et de l'accessibilité pour un meilleur référencement et une meilleure visibilité sur le web.",
+		"location": "Portfolio de Nina Carducci",
+		"equipments": [
+			"SEO",
+			"Lighthouse",
+			"Wave"
+			
+		],
+		"tags": [
+			"Voir le code"
+			
+		]
+	},
+	{
+		"id": "0979876d",
+		"title": "Ohmyfood",
+		"cover": "/projectsPic/Ohmyfood.png",
+		"pictures": [
+			"/projectsPic/ohmy1.jpg ",
+			"/projectsPic/ohmy2.jpg"
+		],
+		"description": " Développement  en mobile first, et l'intégration des animations en SCSS.",
+		
+		
+		
+		"location": " site qui répertorie des restaurants gastronomiques",
+		"equipments": [
+			"Html 5",
+			"Sass"
+			
+		],
+		"tags": [
+			"Voir le code"
+			
+		]
+	},
+	{
+		"id": "f72a452f",
+		"title": "Argent-Bank",
+		"cover": "/projectsPic/argentBankLogo.png",
+		"pictures": [
+			"/projectsPic/bank1.jpg",
+			"/projectsPic/bank2.png",
+			"/projectsPic/bank3.png"
+			
+		],
+		"description": " Gestion de connexion utilisateur pour accéder aux comptes et de pouvoir changer le Username , la gestion de l'état global de l'app avec redux, ainsi que la conception de nouvelles routes API pour afficher les transactions de chaque compte et de pouvoir modifié la note et la catégorie. ",
+		
+		
+		"location": "Application banquaire",
+		"equipments": [
+			"React",
+			"Redux",
+			"JavaScript",
+			"Npm",
+			"API"
+		],
+		"tags": [
+			"Montmartre",
+			"Culture",
+			"Charme"
+		]
+	},
+	{
+		"id": "b4c67936",
+		"title": "Sophie Bluel-Architecte d'intérieur",
+		"cover": "/projectsPic/sophie.png",
+		"pictures": [
+			"/projectsPic/sophie1.jpg",
+			"/projectsPic/sophie2.jpg",
+			"/projectsPic/sophie3.jpg"
+			
+		],
+		"description": " Gestion de connexion administrateur, affichage des travaux sur la page d'accueil et un filtre pour afficher les travaux selon leurs catégorie ,il est possible aussi de suprimer ou d'ajouté des travaux.",
+		
+		
+		"location": "Portfolio de Sophie Bluel",
+		"equipments": [
+			"Html 5",
+			"Css 3",
+			"javascript",
+			"API"
+			
+		],
+		"tags": [
+			"Voir le code"
+			
+		]
+	},
+	{
+		"id": "bc6f7112",
+		"title": "724 events",
+		"cover": "/projectsPic/debugLogo.png",
+		"pictures": [
+			"/projectsPic/debug.jpg"
+		],
+		"description": " Résolutions de bugs, traiter les tests unitaires et fonctionnels ainsi que la rédaction d'un cahier de recette pour le client. ",
+		"location": " Site d'Agence évènementielle",
+		"equipments": [
+			"Html 5",
+			"React Dev tools",
+			"Console de débogage",
+			"React",
+			"javascript"
+			
+		],
+		"tags": [
+			"Voir le code"
+			
+		]
+	}
+	
+]

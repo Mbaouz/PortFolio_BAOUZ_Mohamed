@@ -1,0 +1,86 @@
+.footer-contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 209px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 1);
+    position:relative;
+   .contact{
+    color: white;
+    display: flex;
+    align-self: flex-start;
+    padding-left: 20px;
+    gap: 20px;
+    align-self: center;
+.mail {
+    display: flex;
+    align-items: center;
+}
+
+    h4{
+        margin: 0;
+        font-family: Montserrat;
+    }
+    a{
+        text-decoration:none;
+        color:white;
+        &:hover{
+            color:blue;
+        }
+    }
+   }
+
+    p {
+        font-family: Montserrat;
+        color: white;
+        font-size: 24px;
+    }
+}
+
+
+
+@media (max-width : 768px){
+
+    .footer-contain{
+
+        p {
+            font-size: 12px;
+           
+            
+
+            span {
+             display: flex;
+             flex-wrap: wrap;
+
+            }
+        }
+    }
+}
+
+@media (max-width : 542px){
+
+
+
+ .contact{
+    
+
+  h4{
+     font-size:12px;
+     
+  }
+}
+
+}
+
+
+@media (max-width : 418px){
+
+    .contact{
+        flex-direction:column;
+        line-height:0
+    }
+
+
+}
