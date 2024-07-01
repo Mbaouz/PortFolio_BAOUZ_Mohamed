@@ -11,7 +11,7 @@
 
         img {
             border-radius: 25px;
-            height: 425px;
+            height: 500px;
             object-fit: cover;
         }
 
@@ -26,8 +26,10 @@
 
             svg{
                 cursor: pointer;
+                
             }
             
+            .arrL:hover{fill:blue}
         }
 
         .compteur {
@@ -82,20 +84,6 @@
 
     }
 
-    .info-host {
-        display: flex;
-        align-items: center;
-        gap: 20px;
-
-        img {
-            border-radius: 50px;
-            width: 64px;
-            height: 64px;
-        }
-
-
-    }
-
 
     .tags-stars {
         display: flex;
@@ -137,11 +125,6 @@
 
     }
 
-
-.stars-info-mobile {
-
-    display: none;
-}
     
 }
 
@@ -154,42 +137,12 @@
    
 }
 
-@media (max-width:768px){
+@media (max-width:836px){
 
 .carousel {
 
     margin:20px;
 
-
-    
-    .infos {
-
-        .info-host{
-            display: none;
-            
-        }
-
-        h1{
-    
-            font-size: 18px;
-            line-height: 1.5;
-            margin-top: 10px;
-        }
-        h2 {
-        
-            font-size: 14px;
-        }
-    
-
-
-}
-
-.tags-stars {
-    .stars {
-        display: none;
-    }
-
-}
 
 .collapse-fiche{
 
@@ -199,57 +152,60 @@
 }
 
 
-.stars-info-mobile {
 
-display: flex;
-justify-content: space-between;
-align-items: center;
-margin-bottom: 20px;
-
-
-.info-host-mobile {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-
-    img {
-
-       border-radius: 50px;
-       width: 32px;
-       height: 32px;
-    }
-
-   }
-
-.stars{ 
-    display: flex;
-    gap:5px;
 }
 
-h3 {
-    color: rgba(255, 96, 96, 1);
-    margin-bottom: 0;
-    font-family: Montserrat;
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 25.67px;
-    margin-top: 0;
+
+}
+
+@media (max-width:736px){
+
+.carousel{
+    .carousel-img {
+       
+        
+        img {
+            
+            height: 300px;
+        }
+
+        #arrow-slide {
+           
+            svg{
+                height:60px;
+                width: 25px;
+            }
+            
+        }
+
+    }}}
+
+    @media (max-width:528px){
+
+        .carousel{
+            .carousel-img {
+               
+                img {
+                    
+                    height: 250px;
+                }
+        
+                    
+                }
+        
+            }}
+            @media (max-width:396px){
+
+                .carousel{
+                    .carousel-img {
+                       
+                        img {
+                            
+                            height: 150px;
+                        }    
+                        }
+                
+                    }}
+
+
     
-
-
-}
-
-
-}
-
-
-
-
-
-
-}
-
-
-
-
-}

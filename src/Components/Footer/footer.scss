@@ -76,11 +76,18 @@
 
 
 @media (max-width : 418px){
+.footer-contain{
+
+
+    img{height:50px;}
 
     .contact{
         flex-direction:column;
         line-height:0
     }
+
+}
+    
 
 
 }
