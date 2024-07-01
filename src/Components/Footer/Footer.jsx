@@ -15,7 +15,7 @@ const Footer = () => {
       </div>
       <img src={logoMb} alt="logo"/>
 
-       <p>© 2024 BAOUZ Mohamed. All<span> rights reserved</span></p>
+       <p>© 2024 BAOUZ Mohamed.All rights reserved</p>
 
 
   </footer>
