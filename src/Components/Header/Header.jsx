@@ -2,7 +2,9 @@
 import './header.scss'
 import { NavLink } from 'react-router-dom';
 import { useState } from 'react';
-import logoM from '../../assets/logoMb3.png'
+import logoM from '../../assets/logoMb3.png';
+import Nav from '../../Components/Menu/Menu';
+
 const Header = () => {
   const [active] = useState(false);
   return (
@@ -20,7 +22,7 @@ const Header = () => {
         
       </nav>
 
-
+      <div className='menu-display'><Nav/></div>
 
 
     </header>

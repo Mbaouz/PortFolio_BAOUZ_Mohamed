@@ -4,7 +4,7 @@
    
     margin: 50px ;
     align-items: center;
-
+    .menu-display{display:none;}
     img {
 
         object-fit: cover;
@@ -120,9 +120,14 @@
         flex-direction:column;
         margin:20px;
 
+        .menu-display {
+        display: flex;
+            
+        };
+
         .nav {
-           
-            display:grid;
+            
+            display:none;
             grid-template-columns: repeat(2 , 1fr);
             margin-left: 50px;
             grid-row-gap: 5px;
