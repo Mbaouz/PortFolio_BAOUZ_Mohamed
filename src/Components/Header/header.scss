@@ -1,7 +1,6 @@
 .header-contain {
     display: flex;
     justify-content: space-between;
-   
     margin: 50px ;
     align-items: center;
     .menu-display{display:none;}
@@ -117,7 +116,8 @@
     .header-contain{
         display: flex;
         justify-content: center;
-        flex-direction:column;
+        align-content: center;
+        flex-direction: row;
         margin:20px;
 
         .menu-display {
@@ -126,16 +126,12 @@
         };
 
         .nav {
-            
-            display:none;
-            grid-template-columns: repeat(2 , 1fr);
-            margin-left: 50px;
-            grid-row-gap: 5px;
            
+            display:none;
         }
 
         img {
-            display:block;
+            display:flex;
             height:47px;
         }
     }

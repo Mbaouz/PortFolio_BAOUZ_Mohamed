@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import './menu.scss';
 import '../Header/header.scss';
-
+import { FaBars } from 'react-icons/fa';
 
 const Nav = () => {
     const [isDropdownOpen, setDropdownOpen] = useState(false);
@@ -20,7 +20,7 @@ const Nav = () => {
       <nav className="navM">
         
         <div className="dropdown"  onMouseLeave={closeDropdown} >
-          <button className="dropdown-toggle" onClick={toggleDropdown}>Menu</button>
+          <button className="dropdown-toggle" onClick={toggleDropdown}><FaBars/></button>
           {isDropdownOpen && (
             <div className="dropdown-menu">
               <NavLink to="/">Accueil</NavLink>
