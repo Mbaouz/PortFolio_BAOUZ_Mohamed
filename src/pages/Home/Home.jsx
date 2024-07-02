@@ -8,7 +8,7 @@ import 'animate.css';
 
 const Home = () => {
     return (
-        <div>
+    <div>
 
         <div className='banner'>
 
@@ -19,7 +19,7 @@ const Home = () => {
 
             <Card />
             <Competence/>
-        </div>
+    </div>
     );
 };
 

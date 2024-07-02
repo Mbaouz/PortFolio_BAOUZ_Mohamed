@@ -1,8 +1,4 @@
 
-
-
-
-
 .footer-contain {
     display: flex;
     justify-content: center;
@@ -23,7 +19,7 @@
     .mail{
         display:flex;
         align-items: center;
-        span{ text-align:center;}
+        justify-content: center;
     }
     h4{
         margin: 0;
@@ -35,7 +31,7 @@
         &:hover{
             color:blue;
         }
-    }
+     }
    }
 
     p {
@@ -71,14 +67,12 @@
   h4{
      font-size:12px;
   }
-}
-
+ }
 }
 
 
 @media (max-width : 418px){
 .footer-contain{
-
 
     img{height:50px;}
 
@@ -88,6 +82,5 @@
         text-align:center;
         
     }
-
-}
+  }
 }

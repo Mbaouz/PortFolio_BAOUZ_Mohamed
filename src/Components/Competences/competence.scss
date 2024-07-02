@@ -1,7 +1,4 @@
 
-
-
-
 .logo-contain {
 
     display: flex;
@@ -24,7 +21,8 @@
 
     }
           
-}}
+  }
+}
 
 
 @media  (max-width:1338px){
@@ -33,9 +31,7 @@
     display: grid;
         grid-template-columns: repeat(4 , 1fr);
         padding: 20px;
-}
-
-
+ }
 }
     
 @media  (max-width:768px) {
@@ -52,7 +48,7 @@
         height: 30px; 
     }
     
-}
+  }
 
-}
+ }
 }

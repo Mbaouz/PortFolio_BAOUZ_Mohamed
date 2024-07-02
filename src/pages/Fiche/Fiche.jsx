@@ -34,8 +34,6 @@ const Fiche = () => {
                         
                       ));
 
-                      
-
     return (
         <div className="carousel">
 
@@ -71,13 +69,9 @@ const Fiche = () => {
                  <span><FaGithub/></span></a>
             </div>
             
-
            </div>
             
             <div className="collapse-fiche">
-
-
-            
 
             <Collapse  title="description" description={projects.description} />
             <Collapse  title="Technologies utilisées" description={techList} />

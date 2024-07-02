@@ -18,11 +18,7 @@ const Collapse = ({ title, description }) => {
         <img className={"collapse-img" + (open ? ' active' : '')}  src={description} alt="Description" />
         
          ) : ( <div className={"collapse-text" + (open ? ' active' : '')}>{description}</div>  )}
-        
-
-         
-   
-      
+          
    </div>)
 }
 export default Collapse

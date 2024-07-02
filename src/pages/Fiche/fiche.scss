@@ -35,7 +35,7 @@
         .compteur {
 
           position: absolute;
-          color:grey;
+          color:rgba(255, 96, 96, 1);
           font-family: Montserrat;
           font-size: 18px;
           font-weight: 500;
@@ -65,8 +65,8 @@
             margin-top: 10px;
         }
 
-        h2,
-        h3 {
+    
+        h2 {
 
             font-family: Montserrat;
             font-size: 18px;
@@ -75,13 +75,6 @@
             margin-top: 0;
 
         }
-        h3{
-            color: rgba(255, 96, 96, 1);
-        }
-
-        
-
-
     }
 
 
@@ -150,20 +143,13 @@
     flex-direction: column;
     gap:0;
 }
-
-
-
-}
-
-
-}
+ }
+  }
 
 @media (max-width:736px){
 
 .carousel{
     .carousel-img {
-       
-        
         img {
             
             height: 300px;
@@ -178,7 +164,9 @@
             
         }
 
-    }}}
+    }
+  }
+}
 
     @media (max-width:528px){
 
@@ -188,24 +176,23 @@
                 img {
                     
                     height: 250px;
-                }
-        
-                    
-                }
-        
-            }}
-            @media (max-width:396px){
+                }     
+            }
+        }
+    }
+   @media (max-width:396px){
 
-                .carousel{
-                    .carousel-img {
+   .carousel{
+      .carousel-img {
                        
-                        img {
+         img {
                             
-                            height: 150px;
-                        }    
-                        }
+           height: 150px;
+         }    
+      }
                 
-                    }}
+    }
+}
 
 
     

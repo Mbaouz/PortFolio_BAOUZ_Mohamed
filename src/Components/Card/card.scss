@@ -34,16 +34,13 @@ body {
                 animation-name: pulse;
                 animation-duration: 1s;
                 animation-iteration-count: infinite;
-              }
-            
+              }       
         }
 
         a {
             text-decoration: none;
             position: relative;
         }
-
-        
 
         h2 {
             color:transparent;
@@ -53,9 +50,7 @@ body {
             text-decoration: none;
             position: absolute;
             bottom: 10px;
-            left: 10px;
-           
-            
+            left: 10px;    
         }
     }
 }
@@ -72,10 +67,6 @@ body {
     }
   }
   
-
-
-
-
 @media  (max-width:768px) {
 .section-card{
 
@@ -91,16 +82,9 @@ body {
         padding: 20px;
       img{
         width: 300px;
+        }       
       }
-        
-        
-        }}
-
-
-
+    }
 }
-
-
-
-    
+   
 }

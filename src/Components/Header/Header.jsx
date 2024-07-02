@@ -10,10 +10,7 @@ const Header = () => {
   return (
     <header className='header-contain'>
 
-
       <img src={logoM} alt="logo"/>
-
-      
       <nav className='nav'>
         <NavLink className={"accueil" + ( active ? 'active':'')}    to="/">Accueil</NavLink>
         <NavLink className={"about" + (active? 'active':'')} to="/about">A Propos</NavLink>
