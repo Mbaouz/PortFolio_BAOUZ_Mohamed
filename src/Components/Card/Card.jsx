@@ -12,7 +12,7 @@ const Card = () => {
   return (
 
     <div className='section-card' id='mes-projets'>
-    <h2>Mes projets</h2>
+    <h2>Mes Projets</h2>
     <div className="card-contain">
       
       <div className='card-item'>
