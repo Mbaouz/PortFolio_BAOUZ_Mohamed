@@ -12,8 +12,8 @@ const Home = () => {
 
             <Card />
             <div className="section-card"><h2>A Propos de moi</h2></div>
-            <div className="about" id="a-propos">
-            <p> Passionné depuis toujours par le monde de l’informatique , 
+            <div className="about">
+            <p id="a-propos"> Passionné depuis toujours par le monde de l’informatique , 
                 j'ai suivi des formations et travaillé plusieurs années dans le domaine des réseaux informatiques et de maintenance , 
                 pas seulement dans bien d'autres domaines aussi comme la restauration, la livraison et l’électricité, ces expériences 
                 enrichissantes tant sur le plan professionnels que sur le plan humain qui mon aidé a mieux savoir connaitre mes clients 
@@ -23,9 +23,6 @@ const Home = () => {
 
 
                 <button className="bt-cv"><a href={cvImg}>Voir mon CV</a></button>
-                
-
-
 
             </div>
             <Competence/>
