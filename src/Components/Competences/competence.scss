@@ -1,3 +1,10 @@
+.section-logo {
+ h2{
+    justify-content: center;
+    font-family: 'Montserrat';
+    display: flex;
+    font-size: 40px;
+ }
 
 .logo-contain {
 
@@ -6,11 +13,13 @@
     gap: 50px;
     margin-bottom: 20px;
     font-family: 'Montserrat';
+
+   
     .item-logo{
         display: flex;
         flex-direction: column;
         align-items: center;
-    .iconx {
+    img {
         font-size: 40px;
         height: 50px;
         transition: transform 1s ease;
@@ -23,7 +32,7 @@
           
   }
 }
-
+}
 
 @media  (max-width:1338px){
 

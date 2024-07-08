@@ -1,62 +1,75 @@
 
 import './competence.scss'
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome' ;
-import { faGithub , faGitAlt , faReact , faJs , faCss3 , faHtml5 , faSass , faNpm , faNode ,
-         faFigma , } from '@fortawesome/free-brands-svg-icons';
-import { SiRedux } from 'react-icons/si';
-import { SiSwagger } from 'react-icons/si';
+import jsImg from '../../assets/devLogo/JavaScript.png'
+import gitHubImg from '../../assets/devLogo/github.png'
+import gitImg from '../../assets/devLogo/git.png'
+import reactImg from '../../assets/devLogo/react.png'
+import cssImg from '../../assets/devLogo/css.png'
+import htmlImg from '../../assets/devLogo/html5.png'
+import sassImg from '../../assets/devLogo/sass.png'
+import npmImg from '../../assets/devLogo/npm-logo.jpg'
+import nodeImg from '../../assets/devLogo/node.png'
+import figmaImg from '../../assets/devLogo/figma.png'
+import reduxImg from '../../assets/devLogo/redux.png'
+import swaggerImg from '../../assets/devLogo/swagger.png'
+
+
+
+
 const Competence = () => {
 
 return (
+  
 <div className='section-logo'>
+<h2>Mes Compétences</h2>
 <div className='logo-contain'>
     <div className='item-logo'>
-    <FontAwesomeIcon className='iconx' icon={faGithub} />
+    <img src={gitHubImg} alt="git hub"/>
     <h3>Github</h3>
     </div>
     <div className='item-logo'>
-    <FontAwesomeIcon className='iconx' icon={faGitAlt} />
+    <img src={gitImg} alt="git"/>
     <h3>Git</h3>
    </div>
     <div className='item-logo'>
-    <FontAwesomeIcon className='iconx' icon={faReact} />
+    <img src={reactImg} alt="react" />
     <h3>React</h3>
     </div>
     <div className='item-logo'>
-    <FontAwesomeIcon className='iconx' icon={faJs} />
+    <img src={jsImg} alt="js"/>
     <h3>JavaScript</h3>
     </div>
     <div className='item-logo'>
-    <FontAwesomeIcon className='iconx' icon={faCss3} />
+    <img src={cssImg} alt="css" />
     <h3>CSS3</h3>
     </div>
     <div className='item-logo'>
-    <FontAwesomeIcon className='iconx' icon={faHtml5} />
+    <img src={htmlImg}  alt="img"/>
     <h3>Html5</h3>
     </div>
     <div className='item-logo'>
-    <FontAwesomeIcon className='iconx' icon={faSass} />
+    <img src={sassImg} alt="sass" />
     <h3>Sass</h3>
     </div>
     <div className='item-logo'>
-    <FontAwesomeIcon className='iconx' icon={faNpm} />
+    <img src={npmImg} alt="npm" />
     <h3>Npm</h3>
     </div>
     <div className='item-logo'>
-    <FontAwesomeIcon className='iconx' icon={faNode} />
+    <img src={nodeImg} alt="node"/>
     <h3>Node</h3>
     </div>
     <div className='item-logo'>
-    <FontAwesomeIcon className='iconx' icon={faFigma} />
+    <img src={figmaImg} alt="figma" />
     <h3>Figma</h3>
     </div>
     <div className='item-logo'>
-    <SiRedux className='iconx'/>
+    <img src={reduxImg} alt="redux"/>
     <h3>Redux</h3>
     </div>
     <div className='item-logo'>
-    <SiSwagger className='iconx'/>
+    <img src={swaggerImg} alt="swagger"/>
     <h3>Swagger</h3>
     </div>
   </div> 

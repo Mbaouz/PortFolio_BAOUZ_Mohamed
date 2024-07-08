@@ -29,13 +29,13 @@
                 
             }
             
-            .arrL:hover{fill:blue}
+            .arrL:hover{fill:rgb(97, 170, 192)}
         }
 
         .compteur {
 
           position: absolute;
-          color:rgba(255, 96, 96, 1);
+          color:rgb(5, 9, 19);
           font-family: Montserrat;
           font-size: 18px;
           font-weight: 500;
@@ -56,7 +56,7 @@
 
         h1 {
 
-            color: rgba(255, 96, 96, 1);
+            color: rgb(97, 170, 192);
             font-family: Montserrat;
             font-size: 36px;
             font-weight: 500;
@@ -78,13 +78,13 @@
     }
 
 
-    .tags-stars {
+    .view-code {
         display: flex;
         gap:5px;
         
 
-        .tag {
-            background-color: rgba(255, 96, 96, 1);
+        .view {
+            background-color: rgb(97, 170, 192);
             border-radius: 10px;
             gap: 20px;
             display: flex;

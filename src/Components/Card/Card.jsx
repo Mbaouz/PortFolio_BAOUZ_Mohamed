@@ -1,24 +1,24 @@
 
 import './card.scss'
-import logList from '../../datas/logements.json';
+import projectsList from '../../datas/projets.json';
 import { Link } from 'react-router-dom';
 
 
 const Card = () => {
   return (
 
-    <div className='section-card' id='mes-projets'>
+  <div className='section-card' id='mes-projets'>
     <h2>Mes Projets</h2>
     <div className="card-contain">
       
       <div className='card-item'>
         {
-          logList.map(logt => (
+          projectsList.map(project => (
            
-            <Link to={"/fiche/" + logt.id} key={logt.id}>
+            <Link to={"/fiche/" + project.id} key={project.id}>
               
-                 <img src={logt.cover} alt={logt.title} />
-                 <h2>{logt.title}</h2>
+                 <img src={project.cover} alt={project.title} />
+                 <h2>{project.title}</h2>
               
             </Link>
           
@@ -26,7 +26,7 @@ const Card = () => {
         }
       </div>
     </div>
-    </div>
+  </div>
   );
 };
 

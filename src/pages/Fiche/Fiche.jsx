@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 import Collapse from '../../Components/Collapse/Collapse';
-import logList from '../../datas/logements.json';
+import toolsList from '../../datas/projets.json';
 import './fiche.scss'
 import { useParams } from 'react-router-dom'
 import Error from '../Error/Error'
@@ -13,7 +13,7 @@ const Fiche = () => {
     const [index, setIndex] = useState(0)
     const { projectId } = useParams();
     
-    const projects = logList.find((projects) => projects.id === projectId);
+    const projects = toolsList.find((projects) => projects.id === projectId);
     if (!projects){ return <div>{<Error/>}</div>};
     
 
@@ -27,10 +27,10 @@ const Fiche = () => {
 
                        };
 
-    const tech = projects.equipments       // Afficher text technologies collapse en list
-    const techList = tech.map((equipment, index) => (     
+    const tech = projects.technologies       // Afficher text technologies collapse en list
+    const techList = tech.map((technologies, index) => (     
                         
-                           <div key={index}>{equipment}</div>
+                           <div key={index}>{technologies}</div>
                         
                       ));
 
@@ -56,16 +56,16 @@ const Fiche = () => {
                 <div className='info-titre'>
                     
                     <h1>{projects.title}</h1>
-                    <h2>{projects.location}</h2>
+                    <h2>{projects.subtitle}</h2>
 
                 </div>
 
             </div>
             
-            <div className="tags-stars">
-              <div className='tag'>
+            <div className="view-code">
+              <div className='view'>
 
-               <a href='https://github.com/Mbaouz' target="_blank" rel="noopener noreferrer" ><p>{projects.tags[0]}</p>
+               <a href='https://github.com/Mbaouz' target="_blank" rel="noopener noreferrer" ><p>{projects.view[0]}</p>
                  <span><FaGithub/></span></a>
             </div>
             
@@ -73,7 +73,7 @@ const Fiche = () => {
             
             <div className="collapse-fiche">
 
-            <Collapse  title="description" description={projects.description} />
+            <Collapse  title="Description" description={projects.description} />
             <Collapse  title="Technologies utilisées" description={techList} />
              
             </div>
