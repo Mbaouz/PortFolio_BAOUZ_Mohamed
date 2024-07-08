@@ -50,7 +50,7 @@
 	{
 		"id": "46d188c5",
 		"title": "Booki",
-		"cover": "/projectsPic/Booki.jpg",
+		"cover": "/projectsPic/Booki.png",
 		"pictures": [
 			"/projectsPic/booki1.jpg"	
 		
@@ -59,8 +59,7 @@
 		"subtitle": "Site qui propose des hébergements et des activités",
 		"technologies": [
 			"Html 5",
-			"Css3"
-			
+			"Css 3"
 		],
 		"view": [
 			"Voir le code"

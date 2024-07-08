@@ -13,9 +13,10 @@ import nodeImg from '../../assets/devLogo/node.png'
 import figmaImg from '../../assets/devLogo/figma.png'
 import reduxImg from '../../assets/devLogo/redux.png'
 import swaggerImg from '../../assets/devLogo/swagger.png'
-
-
-
+import vsImg from '../../assets/devLogo/vscode.png'
+import waveImg from '../../assets/devLogo/wave.png'
+import lightImg from '../../assets/devLogo/lighthouse.png'
+import gtImg from '../../assets/devLogo/gt.png'
 
 const Competence = () => {
 
@@ -72,6 +73,28 @@ return (
     <img src={swaggerImg} alt="swagger"/>
     <h3>Swagger</h3>
     </div>
+
+    <div className='item-logo'>
+    <img src={vsImg} alt="vs code"/>
+    <h3>VsCode</h3>
+    </div>
+
+    <div className='item-logo'>
+    <img src={waveImg} alt="wave"/>
+    <h3>WAVE</h3>
+    </div>
+
+    <div className='item-logo'>
+    <img src={lightImg} alt="light house"/>
+    <h3>Lighthouse</h3>
+    </div>
+    <div className='item-logo'>
+    <img src={gtImg} alt="gt metrix"/>
+    <h3>GTmetrix</h3>
+    </div>
+
+
+
   </div> 
   
   </div>

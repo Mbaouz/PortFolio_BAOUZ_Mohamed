@@ -16,24 +16,33 @@ body {
     justify-self: center;
     margin: 50px;
     background-color: rgb(97, 170, 192);
+    
     .card-item {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         padding: 30px;
         gap: 60px;
         grid-row-gap: 40px;
         box-sizing: border-box;
-        
+        width: 100%;
+        .img-contain {
+          object-fit: cover;
+          background-color: white;
+          display: flex;
+          justify-content: center;
+          border-radius: 5px;
+          box-sizing: border-box;
+          &:hover {
+            animation-name: pulse;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+          }
         img {
-            width:100%;
-            height: 150px;
+            width:30vh;
             border-radius: 10px;
-
-            &:hover {
-                animation-name: pulse;
-                animation-duration: 1s;
-                animation-iteration-count: infinite;
-              }       
+            height: 15vh;
+            
+              }     
         }
 
         a {
@@ -69,18 +78,19 @@ body {
 @media  (max-width:768px) {
 .section-card{
 
-  h2{font-size: 30px;}
+  h2{font-size: 25px;}
 .card-contain{
 
-    background-color: transparent;
     margin : 0px;
 
     .card-item{
         display: grid;
         grid-template-columns: repeat(1 , 1fr);
         padding: 20px;
+        
       img{
         width: 300px;
+        
         }       
       }
     }

@@ -23,24 +23,9 @@ a{
 }
 
 
-}
-
-.bt-fermer {
-    font-family: Montserrat;
-    font-size: 20px;
-
-}
-
-
-  }
+} }
   
   
-
-
-
-
-
-
 
 @media (max-width : 1055px){
 
@@ -56,3 +41,14 @@ a{
 
 }
 
+@media  (max-width:768px) {
+
+.about {
+
+    p{
+        font-size:15px;
+    }
+}
+
+
+}

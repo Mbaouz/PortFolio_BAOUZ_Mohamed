@@ -16,9 +16,9 @@ const Card = () => {
           projectsList.map(project => (
            
             <Link to={"/fiche/" + project.id} key={project.id}>
-              
+                 <div className='img-contain'>
                  <img src={project.cover} alt={project.title} />
-                 <h2>{project.title}</h2>
+                 </div>
               
             </Link>
           

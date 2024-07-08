@@ -2,15 +2,10 @@
 import Card from "../../Components/Card/Card";
 import './home.scss';
 import Competence from '../../Components/Competences/Competence';
-import Modal from 'react-modal';
-import { useState } from 'react';
 import cvImg from '../../assets/cvImg.jpg'
 
 
 const Home = () => {
-
-    
-
 
     return (
     <div>
