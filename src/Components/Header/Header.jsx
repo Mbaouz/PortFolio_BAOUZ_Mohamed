@@ -13,7 +13,7 @@ const Header = () => {
       <img src={logoM} alt="logo"/>
       <nav className='nav'>
         <NavLink className={"accueil" + ( active ? 'active':'')}    to="/">Accueil</NavLink>
-        <a href="/#apropos" className="aboutNav">A Propos</a>
+        <a href="/#a-propos" className="aboutNav">A Propos</a>
         <a href="/#mes-projets" className="ancre">Mes projets</a>
         <a href="#contact" className='ancre'>Contact</a>
         

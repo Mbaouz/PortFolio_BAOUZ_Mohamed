@@ -12,7 +12,7 @@ const Home = () => {
 
             <Card />
             <div className="section-card"><h2>A Propos de moi</h2></div>
-            <div className="about" id="apropos">
+            <div className="about" id="a-propos">
             <p> Passionné depuis toujours par le monde de l’informatique , 
                 j'ai suivi des formations et travaillé plusieurs années dans le domaine des réseaux informatiques et de maintenance , 
                 pas seulement dans bien d'autres domaines aussi comme la restauration, la livraison et l’électricité, ces expériences 

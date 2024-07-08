@@ -24,7 +24,7 @@ const Nav = () => {
           {isDropdownOpen && (
             <div className="dropdown-menu">
               <NavLink to="/">Accueil</NavLink>
-              <NavLink to="/about">A Propos</NavLink>
+              <a href="/#a-propos">A Propos</a>
               <a href="/#mes-projets" className="ancre">Mes projets</a>
               <a href="#contact" className="ancre">Contact</a>
             </div>

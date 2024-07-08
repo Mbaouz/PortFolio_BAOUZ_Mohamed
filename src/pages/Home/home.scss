@@ -8,7 +8,7 @@ p{
     font-size: 20px;
     font-family: Montserrat;
     line-height: 40px;
-    padding: 50px ;
+    padding: 20px ;
     text-align: justify;
 
 }
@@ -45,9 +45,11 @@ a{
 
 .about {
 
+    margin: 20px;
+
     p{
         font-size:15px;
-        text-align: initial;
+        //text-align: initial;
     }
 }
 
