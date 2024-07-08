@@ -14,7 +14,7 @@ const Header = () => {
       <nav className='nav'>
         <NavLink className={"accueil" + ( active ? 'active':'')}    to="/">Accueil</NavLink>
         <a href="/#a-propos" className="aboutNav">A Propos</a>
-        <a href="/#mes-projets" className="ancre">Mes projets</a>
+        <a href="/#competence" className='ancre'>Compétences</a>
         <a href="#contact" className='ancre'>Contact</a>
         
       </nav>

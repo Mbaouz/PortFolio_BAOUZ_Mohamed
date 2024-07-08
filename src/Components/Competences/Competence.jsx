@@ -24,7 +24,7 @@ return (
   
 <div className='section-logo'>
 <h2>Mes Compétences</h2>
-<div className='logo-contain'>
+<div className='logo-contain'id='competence'>
     <div className='item-logo'>
     <img src={gitHubImg} alt="git hub"/>
     <h3>Github</h3>
@@ -59,7 +59,7 @@ return (
     </div>
     <div className='item-logo'>
     <img src={nodeImg} alt="node"/>
-    <h3>Node</h3>
+    <h3>NodeJs</h3>
     </div>
     <div className='item-logo'>
     <img src={figmaImg} alt="figma" />
@@ -73,17 +73,14 @@ return (
     <img src={swaggerImg} alt="swagger"/>
     <h3>Swagger</h3>
     </div>
-
     <div className='item-logo'>
     <img src={vsImg} alt="vs code"/>
     <h3>VsCode</h3>
     </div>
-
     <div className='item-logo'>
     <img src={waveImg} alt="wave"/>
     <h3>WAVE</h3>
     </div>
-
     <div className='item-logo'>
     <img src={lightImg} alt="light house"/>
     <h3>Lighthouse</h3>
@@ -92,9 +89,6 @@ return (
     <img src={gtImg} alt="gt metrix"/>
     <h3>GTmetrix</h3>
     </div>
-
-
-
   </div> 
   
   </div>

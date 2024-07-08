@@ -26,6 +26,7 @@ const Home = () => {
 
             </div>
             <Competence/>
+            
     </div>
     );
 };
