@@ -2,7 +2,7 @@
 import Card from "../../Components/Card/Card";
 import './home.scss';
 import Competence from '../../Components/Competences/Competence';
-import cvImg from '../../assets/cvImg.jpg'
+
 
 
 const Home = () => {
