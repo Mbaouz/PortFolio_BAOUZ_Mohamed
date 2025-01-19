@@ -22,7 +22,7 @@ const Home = () => {
                 compétences et de maitrisé les différents outils de développement de sites web et d'être autonome.</p>
 
 
-                <button className="bt-cv"><a href={cvImg}>Voir mon CV</a></button>
+                <button className="bt-cv"><a>Voir mon CV</a></button>
 
             </div>
             <Competence/>
